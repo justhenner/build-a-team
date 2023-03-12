@@ -13,7 +13,7 @@
 
 ## Description
 
-Build a Team generates an HTML page that displays your team. By following the prompts in your termnal you can build out team member information and later view the HTML that is dynamically generated. 
+Build a Team generates an HTML page that displays your team. By following the prompts in your terminal you can build out team member information and later view the HTML that is dynamically generated. 
 [Click here to view a video walk-through](https://drive.google.com/file/d/1LNcvR6PHJYeiQqbhdzicT3Sj01Cb_Gv7/view)
 ![Alt text](./assets/Screen%20Shot%202023-03-12%20at%203.41.26%20PM.png)
 
