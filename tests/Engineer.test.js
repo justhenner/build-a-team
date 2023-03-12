@@ -1,10 +1,12 @@
 const Engineer = require('../lib/engineer');
 
-describe('Engineer'), () => {
+describe('Engineer', () => {
     it('should create an Engineer object', () => {
         const engineer = new Engineer('Dave Matthews', 777, 'dave@ontech.com', 'justdave');
         expect(engineer.userName).toEqual(expect.any(String));
     });
+});
+
     describe('getUserName', () => {
         it('should return GitHub userName', () => {
             const engineer = new Engineer('Dave Matthews', 777, 'dave@ontech.com', 'justdave');
@@ -17,4 +19,3 @@ describe('Engineer'), () => {
             expect(engineer.getRole()).toEqual('Engineer')
         });
     });
-};

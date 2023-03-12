@@ -11,7 +11,7 @@ describe('Employee', () => {
     describe('getName', () => {
         it('should return name', () => {
             const employee = new Employee('Bob Dillon', 555, 'bob@ontech.com');
-            expect(employee.getName()).toEqual(expect.any(String));
+            expect(employee.getNames()).toEqual(expect.any(String));
         });
     });
     describe('getID', () => {
@@ -33,3 +33,4 @@ describe('Employee', () => {
         });
     });
 });
+
