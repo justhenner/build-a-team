@@ -1,5 +1,30 @@
 {
+  
+  "name": "build-a-team",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justhenner/build-a-team.git"
+  },
+  "author": "justhenner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justhenner/build-a-team/issues"
+  },
+  "homepage": "https://github.com/justhenner/build-a-team#readme",
+  "devDependencies": {
+    "jest": "^29.4.0"
+  },
   "dependencies": {
     "inquirer": "^8.2.4"
+    
   }
 }
